@@ -1,0 +1,23 @@
+{
+  "name": "coursesearch",
+  "version": "1.0.0",
+  "description": "UNAL course search",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node ./src/app.ts",
+    "prod": "tsc && node ./build/app.js"
+  },
+  "author": "Jesus Chavarro",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "@types/request": "^2.48.1",
+    "@types/request-promise-native": "^1.0.15",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.4.3"
+  }
+}
