@@ -21,6 +21,6 @@
     "typescript": "^3.4.3"
   },
   "devDependencies": {
-    "lodash": ">=4.17.13"
+    "lodash": ">=4.17.19"
   }
 }
